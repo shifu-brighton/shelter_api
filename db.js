@@ -38,12 +38,4 @@ const db = {
         },
     ]
 }
-
-export default db
-
-/* 
-*db object contains a pets property whose value is an array of objects, each object being a pet
-*each pet has an id, name, type, breed, age, color, and weight
-*the id is a number, the name is a string, the type is a string, the breed is a string, the age is a number, the color is a string, and the weight is a number
-*the id is unique to each pet
-*/
+module.exports = db;
